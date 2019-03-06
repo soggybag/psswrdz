@@ -1,11 +1,7 @@
 import { combineReducers } from 'redux'
 
-import passwordReducer from './password-reducer'
+import passwordReducer from './password-reducers'
 
 export default combineReducers({
   passwords: passwordReducer
 })
-
-// {
-//   passwords: [PasswordItem, ...]
-// }
