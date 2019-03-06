@@ -3,7 +3,7 @@ import './App.css';
 import Password from './password';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
-import reducers from './reducers'
+import reducers from '../reducers'
 import PasswordList from './password-list'
 
 const PSSWRDZ_STATE = "PSSWRDZ_STATE"

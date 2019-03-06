@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { addPassword } from './actions/'
+import { addPassword } from '../actions'
 import './password.css'
 
 function random(n) {
